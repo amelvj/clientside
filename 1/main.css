@@ -1,0 +1,32 @@
+body{
+	background: #999;
+}
+
+
+p{
+	background: white;
+	color: #777;
+	padding: 10px;
+	/*display: inline;*/
+}
+
+.secondary{
+	background: none;
+	color: #555;
+}
+.tabs{
+	display: inline;
+}
+ul{
+	display: inline;
+}
+
+ul li{
+	display: inline-block;
+	background: #666;
+	color: white;
+	padding: 5px 15px;
+}
+ul li a{
+	color: white;
+}

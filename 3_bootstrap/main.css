@@ -1,0 +1,56 @@
+.myPanel{
+border: 0.1px solid #aaa;
+border-radius: 5px 5px 3px 3px;
+box-shadow: 4px 4px 5px #ccc;
+margin: 3%;
+
+
+}
+
+.myPanel .heading{
+background: #97fca9;
+border: 1px solid #aaa;
+border-radius: 5px 5px 0 0;
+color: #843a09;
+
+padding: 10px 20px;
+}
+
+.myPanel .body{
+
+padding: 0px 10px;
+
+}
+
+.myPanel .showOnHover{
+/*background: #97fca9;*/
+/*border: 1px solid #aaa;*/
+/*border-radius: 5px 5px 0 0;*/
+/*color: #843a09;*/
+padding: 5px 10px;
+text-align:  right;
+display: none;
+/*visibility: hidden;*/
+}
+.myPanel:hover .showOnHover{
+/*visibility: visible;*/
+display: inline-block;
+
+}
+.myPanel:hover {
+box-shadow: 0px 0px 20px yellow;
+
+}
+
+.darkBG{
+	background: #999;
+}
+
+.darkerBG{
+	background: #666;
+}
+
+.margin2{
+	margin: 0px 1px 0px 1px;
+}
+
